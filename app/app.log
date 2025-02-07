@@ -1,0 +1,296 @@
+[2025-01-27 17:15:53,175] INFO in server: Started server process [66903]
+[2025-01-27 17:15:53,178] INFO in on: Waiting for application startup.
+[2025-01-27 17:15:53,179] INFO in on: Application startup complete.
+[2025-01-27 17:19:30,611] INFO in server: Shutting down
+[2025-01-27 17:19:30,717] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:19:30,719] INFO in on: Application shutdown complete.
+[2025-01-27 17:19:30,720] INFO in server: Finished server process [66903]
+[2025-01-27 17:19:32,737] INFO in server: Started server process [66976]
+[2025-01-27 17:19:32,739] INFO in on: Waiting for application startup.
+[2025-01-27 17:19:32,739] INFO in on: Application startup complete.
+[2025-01-27 17:19:54,760] INFO in server: Shutting down
+[2025-01-27 17:19:54,862] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:19:54,863] INFO in on: Application shutdown complete.
+[2025-01-27 17:19:54,864] INFO in server: Finished server process [66976]
+[2025-01-27 17:19:57,537] INFO in server: Started server process [66989]
+[2025-01-27 17:19:57,541] INFO in on: Waiting for application startup.
+[2025-01-27 17:19:57,541] INFO in on: Application startup complete.
+[2025-01-27 17:23:06,866] INFO in server: Shutting down
+[2025-01-27 17:23:06,981] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:23:06,983] INFO in on: Application shutdown complete.
+[2025-01-27 17:23:06,984] INFO in server: Finished server process [66989]
+[2025-01-27 17:23:09,164] INFO in server: Started server process [67047]
+[2025-01-27 17:23:09,168] INFO in on: Waiting for application startup.
+[2025-01-27 17:23:09,169] INFO in on: Application startup complete.
+[2025-01-27 17:23:22,017] INFO in main: Request: GET http://localhost:8000/docs
+[2025-01-27 17:23:22,022] INFO in main: Response: 200 (Duration: 0.01s)
+[2025-01-27 17:23:22,192] INFO in main: Request: GET http://localhost:8000/openapi.json
+[2025-01-27 17:23:22,198] INFO in main: Response: 200 (Duration: 0.01s)
+[2025-01-27 17:23:36,460] INFO in main: Request: POST http://localhost:8000/api/query?question=who%20is%20nvda%27s%20CEO%3F
+[2025-01-27 17:23:37,910] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:23:37,937] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:23:38,693] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:23:39,402] INFO in main: Response: 500 (Duration: 2.94s)
+[2025-01-27 17:27:07,236] INFO in server: Shutting down
+[2025-01-27 17:27:07,343] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:27:07,345] INFO in on: Application shutdown complete.
+[2025-01-27 17:27:07,346] INFO in server: Finished server process [67047]
+[2025-01-27 17:27:43,429] INFO in server: Started server process [67174]
+[2025-01-27 17:27:43,432] INFO in on: Waiting for application startup.
+[2025-01-27 17:27:43,433] INFO in on: Application startup complete.
+[2025-01-27 17:27:53,645] INFO in main: Request: GET http://localhost:8000/docs
+[2025-01-27 17:27:53,646] INFO in main: Response: 200 (Duration: 0.00s)
+[2025-01-27 17:27:53,729] INFO in main: Request: GET http://localhost:8000/openapi.json
+[2025-01-27 17:27:53,739] INFO in main: Response: 200 (Duration: 0.01s)
+[2025-01-27 17:28:01,720] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:28:02,581] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:28:02,607] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:28:03,299] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:28:03,890] INFO in main: Response: 500 (Duration: 2.17s)
+[2025-01-27 17:28:53,954] INFO in server: Shutting down
+[2025-01-27 17:28:54,057] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:28:54,059] INFO in on: Application shutdown complete.
+[2025-01-27 17:28:54,061] INFO in server: Finished server process [67174]
+[2025-01-27 17:28:56,293] INFO in server: Started server process [67256]
+[2025-01-27 17:28:56,297] INFO in on: Waiting for application startup.
+[2025-01-27 17:28:56,298] INFO in on: Application startup complete.
+[2025-01-27 17:28:56,711] INFO in main: Request: GET http://localhost:8000/docs
+[2025-01-27 17:28:56,712] INFO in main: Response: 200 (Duration: 0.00s)
+[2025-01-27 17:28:56,856] INFO in main: Request: GET http://localhost:8000/openapi.json
+[2025-01-27 17:28:56,860] INFO in main: Response: 200 (Duration: 0.00s)
+[2025-01-27 17:29:02,944] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:29:03,922] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:29:03,944] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:29:04,520] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:29:07,734] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:29:07,758] INFO in main: Response: 200 (Duration: 4.81s)
+[2025-01-27 17:33:05,932] INFO in server: Shutting down
+[2025-01-27 17:33:06,038] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:33:06,039] INFO in on: Application shutdown complete.
+[2025-01-27 17:33:06,040] INFO in server: Finished server process [67256]
+[2025-01-27 17:33:08,355] INFO in server: Started server process [67356]
+[2025-01-27 17:33:08,359] INFO in on: Waiting for application startup.
+[2025-01-27 17:33:08,360] INFO in on: Application startup complete.
+[2025-01-27 17:33:09,916] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:33:11,321] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:33:11,331] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:33:11,956] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:33:12,551] INFO in rag_graph: Retrieved context for question: 
+[Document(id='827b533b-1cf8-4645-b40b-43069ec2b27b', metadata={'company': 'NVDA', 'file_name': '2023 Q2 NVDA.pdf', 'page_number': 48.0, 'quarter': 'Q2', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='a77b78e2-db85-475e-b680-189ba25b7076', metadata={'company': 'NVDA', 'file_name': '2022 Q3 NVDA.pdf', 'page_number': 46.0, 'quarter': 'Q3', 'section_title': 'Jen-Hsun Huang', 'year': 2022.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='8b53beac-7095-43d4-b718-d3794fec0a59', metadata={'company': 'NVDA', 'file_name': '2023 Q3 NVDA.pdf', 'page_number': 49.0, 'quarter': 'Q3', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='22acb432-948f-47c1-9e48-1f110968dc33', metadata={'company': 'NVDA', 'file_name': '2023 Q1 NVDA.pdf', 'page_number': 46.0, 'quarter': 'Q1', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='681c97f8-9e25-496c-9bcd-3ebdbecf5bf6', metadata={'company': 'NVDA', 'file_name': '2023 Q1 NVDA.pdf', 'page_number': 45.0, 'quarter': 'Q1', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2023.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n45\n\n'), Document(id='e1c92df5-a534-4982-b015-6eca2ae5fbe2', metadata={'company': 'NVDA', 'file_name': '2023 Q2 NVDA.pdf', 'page_number': 47.0, 'quarter': 'Q2', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2023.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n47\n\n'), Document(id='e7b20396-7ee5-42af-874d-bc4b766b64af', metadata={'company': 'NVDA', 'file_name': '2022 Q3 NVDA.pdf', 'page_number': 45.0, 'quarter': 'Q3', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2022.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n44\n\n')]
+[2025-01-27 17:33:21,931] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:33:21,958] INFO in main: Response: 200 (Duration: 12.04s)
+[2025-01-27 17:34:07,834] INFO in server: Shutting down
+[2025-01-27 17:34:07,938] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:34:07,940] INFO in on: Application shutdown complete.
+[2025-01-27 17:34:07,940] INFO in server: Finished server process [67356]
+[2025-01-27 17:34:10,566] INFO in server: Started server process [67382]
+[2025-01-27 17:34:10,569] INFO in on: Waiting for application startup.
+[2025-01-27 17:34:10,570] INFO in on: Application startup complete.
+[2025-01-27 17:34:10,576] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:34:13,170] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:34:13,184] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:34:13,897] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:34:14,406] INFO in rag_graph: Retrieved context for question: 
+[Document(id='827b533b-1cf8-4645-b40b-43069ec2b27b', metadata={'company': 'NVDA', 'file_name': '2023 Q2 NVDA.pdf', 'page_number': 48.0, 'quarter': 'Q2', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='a77b78e2-db85-475e-b680-189ba25b7076', metadata={'company': 'NVDA', 'file_name': '2022 Q3 NVDA.pdf', 'page_number': 46.0, 'quarter': 'Q3', 'section_title': 'Jen-Hsun Huang', 'year': 2022.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='8b53beac-7095-43d4-b718-d3794fec0a59', metadata={'company': 'NVDA', 'file_name': '2023 Q3 NVDA.pdf', 'page_number': 49.0, 'quarter': 'Q3', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='22acb432-948f-47c1-9e48-1f110968dc33', metadata={'company': 'NVDA', 'file_name': '2023 Q1 NVDA.pdf', 'page_number': 46.0, 'quarter': 'Q1', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='681c97f8-9e25-496c-9bcd-3ebdbecf5bf6', metadata={'company': 'NVDA', 'file_name': '2023 Q1 NVDA.pdf', 'page_number': 45.0, 'quarter': 'Q1', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2023.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n45\n\n'), Document(id='e1c92df5-a534-4982-b015-6eca2ae5fbe2', metadata={'company': 'NVDA', 'file_name': '2023 Q2 NVDA.pdf', 'page_number': 47.0, 'quarter': 'Q2', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2023.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n47\n\n'), Document(id='e7b20396-7ee5-42af-874d-bc4b766b64af', metadata={'company': 'NVDA', 'file_name': '2022 Q3 NVDA.pdf', 'page_number': 45.0, 'quarter': 'Q3', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2022.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n44\n\n')]
+[2025-01-27 17:34:14,410] INFO in rag_graph: Formatted context for question: 
+
+
+file_name: 2023 Q2 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 48.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2022 Q3 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 46.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2023 Q3 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 49.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2023 Q1 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 46.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2023 Q1 NVDA.pdf
+section_title: By: /s/ Colette M. Kress
+page_number: 45.0
+Snippet: By: /s/ Colette M. Kress
+
+Colette M. Kress
+
+Executive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)
+
+45
+
+
+
+file_name: 2023 Q2 NVDA.pdf
+section_title: By: /s/ Colette M. Kress
+page_number: 47.0
+Snippet: By: /s/ Colette M. Kress
+
+Colette M. Kress
+
+Executive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)
+
+47
+
+
+
+file_name: 2022 Q3 NVDA.pdf
+section_title: By: /s/ Colette M. Kress
+page_number: 45.0
+Snippet: By: /s/ Colette M. Kress
+
+Colette M. Kress
+
+Executive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)
+
+44
+
+
+[2025-01-27 17:34:14,412] INFO in rag_graph: Full prompt for question: 
+messages=[HumanMessage(content="You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\nQuestion: nvda CEO \nContext: \n\nfile_name: 2023 Q2 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 48.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2022 Q3 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 46.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2023 Q3 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 49.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2023 Q1 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 46.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2023 Q1 NVDA.pdf\nsection_title: By: /s/ Colette M. Kress\npage_number: 45.0\nSnippet: By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n45\n\n\n\nfile_name: 2023 Q2 NVDA.pdf\nsection_title: By: /s/ Colette M. Kress\npage_number: 47.0\nSnippet: By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n47\n\n\n\nfile_name: 2022 Q3 NVDA.pdf\nsection_title: By: /s/ Colette M. Kress\npage_number: 45.0\nSnippet: By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n44\n\n \nAnswer:", additional_kwargs={}, response_metadata={})]
+[2025-01-27 17:34:16,756] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:34:16,778] INFO in rag_graph: Response for question: 
+{'answer': 'The CEO of NVIDIA (NVDA) is Jen-Hsun Huang.', 'references': [{'file_name': '2023 Q2 NVDA.pdf', 'page_number': 48, 'section_title': 'Jen-Hsun Huang'}, {'file_name': '2022 Q3 NVDA.pdf', 'page_number': 46, 'section_title': 'Jen-Hsun Huang'}, {'file_name': '2023 Q3 NVDA.pdf', 'page_number': 49, 'section_title': 'Jen-Hsun Huang'}]}
+[2025-01-27 17:34:16,781] INFO in main: Response: 200 (Duration: 6.20s)
+[2025-01-27 17:34:32,846] INFO in server: Shutting down
+[2025-01-27 17:34:32,948] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:34:32,949] INFO in on: Application shutdown complete.
+[2025-01-27 17:34:32,949] INFO in server: Finished server process [67382]
+[2025-01-27 17:34:34,982] INFO in server: Started server process [67396]
+[2025-01-27 17:34:34,984] INFO in on: Waiting for application startup.
+[2025-01-27 17:34:34,984] INFO in on: Application startup complete.
+[2025-01-27 17:34:47,080] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:34:48,407] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:34:48,442] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:34:49,071] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:34:51,676] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:34:51,701] INFO in main: Response: 200 (Duration: 4.62s)
+[2025-01-27 17:35:09,995] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:35:11,342] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:35:11,348] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:35:12,105] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:35:14,203] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:35:14,222] INFO in main: Response: 200 (Duration: 4.23s)
+[2025-01-27 17:35:27,350] INFO in server: Shutting down
+[2025-01-27 17:35:27,453] INFO in on: Waiting for application shutdown.
+[2025-01-27 17:35:27,454] INFO in on: Application shutdown complete.
+[2025-01-27 17:35:27,455] INFO in server: Finished server process [67396]
+[2025-01-27 17:35:29,654] INFO in server: Started server process [67422]
+[2025-01-27 17:35:29,657] INFO in on: Waiting for application startup.
+[2025-01-27 17:35:29,664] INFO in on: Application startup complete.
+[2025-01-27 17:35:30,421] INFO in main: Request: POST http://localhost:8000/api/query?question=nvda%20CEO
+[2025-01-27 17:35:31,719] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:35:31,738] INFO in base: Generated Query: query='CEO' filter=Comparison(comparator=<Comparator.EQ: 'eq'>, attribute='company', value='NVDA') limit=None
+[2025-01-27 17:35:32,345] INFO in _client: HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+[2025-01-27 17:35:32,897] INFO in rag_graph: Retrieved context for question: 
+[Document(id='827b533b-1cf8-4645-b40b-43069ec2b27b', metadata={'company': 'NVDA', 'file_name': '2023 Q2 NVDA.pdf', 'page_number': 48.0, 'quarter': 'Q2', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='a77b78e2-db85-475e-b680-189ba25b7076', metadata={'company': 'NVDA', 'file_name': '2022 Q3 NVDA.pdf', 'page_number': 46.0, 'quarter': 'Q3', 'section_title': 'Jen-Hsun Huang', 'year': 2022.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='8b53beac-7095-43d4-b718-d3794fec0a59', metadata={'company': 'NVDA', 'file_name': '2023 Q3 NVDA.pdf', 'page_number': 49.0, 'quarter': 'Q3', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='22acb432-948f-47c1-9e48-1f110968dc33', metadata={'company': 'NVDA', 'file_name': '2023 Q1 NVDA.pdf', 'page_number': 46.0, 'quarter': 'Q1', 'section_title': 'Jen-Hsun Huang', 'year': 2023.0}, page_content='Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n'), Document(id='681c97f8-9e25-496c-9bcd-3ebdbecf5bf6', metadata={'company': 'NVDA', 'file_name': '2023 Q1 NVDA.pdf', 'page_number': 45.0, 'quarter': 'Q1', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2023.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n45\n\n'), Document(id='e1c92df5-a534-4982-b015-6eca2ae5fbe2', metadata={'company': 'NVDA', 'file_name': '2023 Q2 NVDA.pdf', 'page_number': 47.0, 'quarter': 'Q2', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2023.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n47\n\n'), Document(id='e7b20396-7ee5-42af-874d-bc4b766b64af', metadata={'company': 'NVDA', 'file_name': '2022 Q3 NVDA.pdf', 'page_number': 45.0, 'quarter': 'Q3', 'section_title': 'By: /s/ Colette M. Kress', 'year': 2022.0}, page_content='By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n44\n\n')]
+[2025-01-27 17:35:32,902] INFO in rag_graph: Formatted context for question: 
+
+
+file_name: 2023 Q2 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 48.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2022 Q3 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 46.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2023 Q3 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 49.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2023 Q1 NVDA.pdf
+section_title: Jen-Hsun Huang
+page_number: 46.0
+Snippet: Jen-Hsun Huang
+
+President and Chief Executive Officer
+
+
+
+file_name: 2023 Q1 NVDA.pdf
+section_title: By: /s/ Colette M. Kress
+page_number: 45.0
+Snippet: By: /s/ Colette M. Kress
+
+Colette M. Kress
+
+Executive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)
+
+45
+
+
+
+file_name: 2023 Q2 NVDA.pdf
+section_title: By: /s/ Colette M. Kress
+page_number: 47.0
+Snippet: By: /s/ Colette M. Kress
+
+Colette M. Kress
+
+Executive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)
+
+47
+
+
+
+file_name: 2022 Q3 NVDA.pdf
+section_title: By: /s/ Colette M. Kress
+page_number: 45.0
+Snippet: By: /s/ Colette M. Kress
+
+Colette M. Kress
+
+Executive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)
+
+44
+
+
+[2025-01-27 17:35:32,904] INFO in rag_graph: Full prompt for question: 
+messages=[HumanMessage(content="You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question. If you don't know the answer, just say that you don't know. Use three sentences maximum and keep the answer concise.\nQuestion: nvda CEO \nContext: \n\nfile_name: 2023 Q2 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 48.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2022 Q3 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 46.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2023 Q3 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 49.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2023 Q1 NVDA.pdf\nsection_title: Jen-Hsun Huang\npage_number: 46.0\nSnippet: Jen-Hsun Huang\n\nPresident and Chief Executive Officer\n\n\n\nfile_name: 2023 Q1 NVDA.pdf\nsection_title: By: /s/ Colette M. Kress\npage_number: 45.0\nSnippet: By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n45\n\n\n\nfile_name: 2023 Q2 NVDA.pdf\nsection_title: By: /s/ Colette M. Kress\npage_number: 47.0\nSnippet: By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n47\n\n\n\nfile_name: 2022 Q3 NVDA.pdf\nsection_title: By: /s/ Colette M. Kress\npage_number: 45.0\nSnippet: By: /s/ Colette M. Kress\n\nColette M. Kress\n\nExecutive Vice President and Chief Financial Officer (Duly Authorized Officer and Principal Financial Officer)\n\n44\n\n \nAnswer:", additional_kwargs={}, response_metadata={})]
+[2025-01-27 17:35:34,689] INFO in _client: HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-01-27 17:35:34,714] INFO in rag_graph: Response for question: 
+{'answer': 'The CEO of NVIDIA (NVDA) is Jen-Hsun Huang.', 'references': [{'file_name': '2023 Q2 NVDA.pdf', 'page_number': 48, 'section_title': 'Jen-Hsun Huang'}, {'file_name': '2022 Q3 NVDA.pdf', 'page_number': 46, 'section_title': 'Jen-Hsun Huang'}, {'file_name': '2023 Q3 NVDA.pdf', 'page_number': 49, 'section_title': 'Jen-Hsun Huang'}]}
+[2025-01-27 17:35:34,716] INFO in main: Response: 200 (Duration: 4.30s)
+[2025-01-28 08:21:53,867] INFO in server: Shutting down
+[2025-01-28 08:21:54,026] INFO in on: Waiting for application shutdown.
+[2025-01-28 08:21:54,040] INFO in on: Application shutdown complete.
+[2025-01-28 08:21:54,043] INFO in server: Finished server process [67422]
